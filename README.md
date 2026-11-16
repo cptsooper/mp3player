@@ -70,7 +70,7 @@ If you want to compile or maintain this mod for future *Sons of the Forest* upda
      * `UnityEngine.TextRenderingModule.dll`
 3. **Runtime Bank & Custom FMOD GUIDs:**
    * Keep `CustomRadio.bank` inside `Mods/mp3player/` alongside the compiled `mp3player.dll` in `Mods/`.
-   * If you build your own replacement `.bank` in FMOD Studio (with a 3D Programmer Instrument event and a 2D Programmer Instrument event), update the two event GUID constants in `CustomRadioMod.cs` to match your new bank events:
+   * If you build your own replacement `.bank` in FMOD Studio (with a 3D Programmer Instrument event and a 2D Programmer Instrument event), update the two event GUID constants in `mp3player.cs` to match your new bank events:
      ```csharp
      public static readonly Il2CppSystem.Guid CustomEventGuid = Il2CppSystem.Guid.Parse("b8306987-8d77-4184-8718-7367879cabbf");
      public static readonly Il2CppSystem.Guid CustomEvent2DGuid = Il2CppSystem.Guid.Parse("{e2379ac8-c6c2-4cdc-8e23-75891c71d08e}");
