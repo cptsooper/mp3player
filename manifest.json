@@ -1,0 +1,9 @@
+{
+  "id": "mp3player",
+  "name": "MP3 Radio Player",
+  "author": "cptsooper",
+  "version": "3.0.0",
+  "description": "Streams custom .mp3 files directly into radios and boomboxes via an FMOD programmer instrument.",
+  "gameVersion": "1.0.0",
+  "type": "Mod"
+}
